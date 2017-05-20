@@ -75,7 +75,7 @@
     }
 
     const keys = document.querySelectorAll('.key');
-    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // ES6 syntax
     window.addEventListener('keydown', playSound);
 
 </script>
